@@ -1,29 +1,38 @@
-<template>
-  <svg class="NuxtLogo" width="245" height="180" viewBox="0 0 452 342" xmlns="http://www.w3.org/2000/svg">
-    <path
-      d="M139 330l-1-2c-2-4-2-8-1-13H29L189 31l67 121 22-16-67-121c-1-2-9-14-22-14-6 0-15 2-22 15L5 303c-1 3-8 16-2 27 4 6 10 12 24 12h136c-14 0-21-6-24-12z"
-      fill="#00C58E"
-    />
-    <path
-      d="M447 304L317 70c-2-2-9-15-22-15-6 0-15 3-22 15l-17 28v54l39-67 129 230h-49a23 23 0 0 1-2 14l-1 1c-6 11-21 12-23 12h76c3 0 17-1 24-12 3-5 5-14-2-26z"
-      fill="#108775"
-    />
-    <path
-      d="M376 330v-1l1-2c1-4 2-8 1-12l-4-12-102-178-15-27h-1l-15 27-102 178-4 12a24 24 0 0 0 2 15c4 6 10 12 24 12h190c3 0 18-1 25-12zM256 152l93 163H163l93-163z"
-      fill="#2F495E"
-    />
+<template functional>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    :width="props.size"
+    :height="props.size"
+    viewBox="0 0 512 512"
+    :aria-labelledby="props.labelledby"
+    role="presentation"
+    class="inline-block align-top fill-current"
+    :class="[data.class, data.staticClass]"
+  >
+    <title lang="en">logo icon</title>
+    <g>
+     <path
+        stroke="null"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M331.038 263.711c-25.245 25.779-59.838 37.176-94.79 31.255-51.754-8.746-86.526-50.566-86.526-104.078 0-61.567 44.689-106.256 106.26-106.256 52.756 0 94.649 33.83 104.232 84.178 6.587 34.649-4.038 69.238-29.176 94.901zM255.982.655c-108.45 0-190.233 81.305-190.233 189.11 0 71.445 25.514 120.35 91.234 161.061 18.334 11.359 82.04 33.744 61.994 89.044l-18.48 32.144a24.974 24.974 0 0 0-1.651 25.885 24.967 24.967 0 0 0 22.188 13.447h37.658a25.02 25.02 0 0 0 20.588-10.797l109.363-158.222c49.713-71.538 58.178-105.91 57.58-151.67C444.93 82.34 363.147.655 255.982.655M443.103 463.348c0-26.509-21.489-48.001-47.997-48.001s-47.997 21.492-47.997 48.001c0 26.504 21.489 47.998 47.997 47.998s47.997-21.494 47.997-47.998"
+     />
+    </g>
   </svg>
 </template>
 
-<style>
-.NuxtLogo {
-  animation: 1s appear;
-  margin: auto;
+<script>
+export default {
+  name: 'Logo',
+  props: {
+    labelledby: {
+      type: String,
+      default: 'logo',
+    },
+    size: {
+      type: [Number, String],
+      default: 16,
+    },
+  },
 }
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-}
-</style>
+</script>

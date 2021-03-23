@@ -1,0 +1,16 @@
+.plyr__video-embed {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: auto;
+    top: auto;
+    vertical-align: middle;
+}
+
+.plyr__video-embed iframe{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: auto;
+    top: auto;
+}
