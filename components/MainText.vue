@@ -23,8 +23,8 @@
     </p>
 
     <div class="flex flex-row md:text-base text-gray-darker space-x-3">
-        <input class="flex-grow input border border-gray-dark appearance-none rounded px-3 py-3 pt-5 pb-2 focus focus:border-green-dark focus:outline-none active:outline-none active:border-green-dark" id="email" type="text" placeholder="Email Address" autofocus>
-        <button class="px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white">Confirm</button>
+        <input class="flex-grow block px-4 py-3 text-base appearance-none border border-gray-dark shadow-none bg-white rounded placeholder-gray focus:outline-none focus:shadow-outline-blue focus:border-green-dark" id="email" x-model="email" type="email" placeholder="Enter your email" autofocus>
+        <button class="px-4 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white">Confirm</button>
     </div>
 
 
