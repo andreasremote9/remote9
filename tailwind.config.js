@@ -26,6 +26,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: theme => ({
+        'hero-section': "url('~/assets/svg/RemoteNine-BG-Side.svg')",
+       }),
+
     },
   },
   variants: {

@@ -7,10 +7,15 @@
     vertical-align: middle;
 }
 
-.plyr__video-embed iframe{
+.plyr__video-embed iframe {
     position: relative;
     width: 100%;
     height: 100%;
     left: auto;
     top: auto;
+}
+
+.plyr_wrapper_reset {
+    margin-top: auto;
+    margin-bottom: auto;
 }
