@@ -28,6 +28,7 @@ export default {
    css: [
     'plyr/dist/plyr.css', // For video/audio players
     '~/assets/css/plyr-ovrwrt.css',
+    '~/assets/css/main.css',
    ],
   /*
    ** Plugins to load before mounting the App

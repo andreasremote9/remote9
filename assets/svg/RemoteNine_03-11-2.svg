@@ -1,15 +1,21 @@
-<template functional>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    :width="scaledSize"
-    :height="props.size"
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    version="1.1" 
     viewBox="100 230 950 300"
-    :aria-labelledby="props.labelledby"
-    role="presentation"
-    class="inline-block align-top fill-current"
-    :class="[data.class, data.staticClass]"
-  >
-    <title lang="en">logo icon</title>
+    xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+    <metadata>
+        <rdf:RDF>
+            <cc:Work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
     <g transform="matrix(1.3333 0 0 -1.3333 0 781.4)">
         <g transform="scale(.1)">
             <path d="m912.84 2797h32.402c37.793 0 53.992 1.81 68.398 9.01v-183.6c37.79 126 129.59 189 242.99 189 100.79 0 163.79-48.61 196.19-144l-82.8-53.99c-32.4 79.19-72 111.59-142.19 111.59-124.2 0-214.19-95.39-214.19-266.39v-428.37h-100.8v766.75" fill="#050606"/>
@@ -22,26 +28,4 @@
             <path d="m7776.4 2209.1c0 106.76-86.54 193.3-193.3 193.3s-193.3-86.54-193.3-193.3 86.54-193.3 193.3-193.3 193.3 86.54 193.3 193.3" fill="#205b59"/>
         </g>
     </g>
-  </svg>
-</template>
-
-<script>
-export default {
-  name: 'Logo',
-  props: {
-    labelledby: {
-      type: String,
-      default: 'logo',
-    },
-    size: {
-      type: [Number, String],
-      default: 36,
-    },
-  },
-  computed: {
-    scaledSize: () => {
-      return Math.ceil(this.size)
-    }
-  }
-}
-</script>
+</svg>

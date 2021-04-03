@@ -1,0 +1,11 @@
+body {
+    min-height: 100vh;
+}
+
+.min-h-total {
+    min-height: 100vh;
+}
+
+main {
+    background-image: url('~assets/png/bg-9-half-rx-dg.png')
+}

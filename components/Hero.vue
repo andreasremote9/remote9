@@ -1,7 +1,7 @@
 
 <template>
   <div
-    class="flex flex-col px-6 lg:pt-16 space-y-6 md:w-3/5 plyr_wrapper_reset"
+    class="flex flex-col px-6 space-y-6 md:w-3/5 plyr_wrapper_reset"
   >
     <!-- vimeo iframe with progressive enhancement (extra queries after the url to optimize the embed) -->
     <vue-plyr>

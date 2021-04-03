@@ -1,12 +1,11 @@
 <template>
   <header class="w-full mx-auto lg:max-w-screen-xl">
-    <div class="flex items-center justify-between px-6">
+    <div class="flex items-center justify-between px-6 py-5">
       <a
         href="https://www.remote9.com"
         class="flex items-center text-green-dark focus:outline-none focus:shadow-outline"
       >
-        <Logo labelledby="remote9" :size="36" />
-        <span class="text-xl font-semibold" id="remote9">remote9</span>
+        <Logo labelledby="remote9" :size="40" />
       </a>
 
       <div class="space-x-4">

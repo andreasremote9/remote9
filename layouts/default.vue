@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between py-5 space-y-10">
+  <div class="min-h-total flex flex-col justify-between space-y-10">
     <Header />
     <Nuxt />
     <Footer />

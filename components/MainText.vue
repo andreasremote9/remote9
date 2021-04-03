@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6 lg:pt-16 space-y-6 md:w-2/5">
+  <div class="px-6 space-y-6 md:w-2/5">
     <h1
       class="text-4xl font-semibold leading-tight tracking-tight text-black space-y-2 sm:space-y-0 md:text-5xl"
     >
@@ -12,7 +12,7 @@
     </p>
 
     <a
-      href="https://remote9.com"
+      href="https://tinyurl.com/6h93r85c"
       class="inline-block px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
     >
       Apply now!
@@ -28,7 +28,7 @@
     </div> -->
 
     <a
-      href="https://remote9.com"
+      href="https://eepurl.com/ht0Lvj"
       class="inline-block px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
     >
       Send me details

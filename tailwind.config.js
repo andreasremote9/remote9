@@ -27,13 +27,14 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: theme => ({
-        'hero-section': "url('~/assets/svg/RemoteNine-BG-Side.svg')",
+        'main-section': "url('~/assets/png/bg-9-half-rx-dg.png')",
        }),
 
     },
   },
   variants: {
     backgroundColor: ['active', 'hover'],
+    backgroundImage: ['active', 'hover'],
     textColor: ['active', 'hover'],
   },
   plugins: [],
