@@ -147,7 +147,7 @@
       <div class="flex flex-col md:flex-row space-y-3 space-x-3 w-full">
         <img src="~/assets/jpg/andreas/IMG_7389_edited-3.jpg" class="object-scale-down rounded-md w-full md:w-2/5"/>
          <img src="~/assets/jpg/andreas/Andreas-2634 Low Res.jpg" class="object-scale-down rounded-md w-full md:w-1/5"/>
-          <img src="~/assets/jpg/andreas/27c13a41-ff2b-4d51-a61d-eaff84f909b6.JPEG" class="object-scale-down rounded-md w-full md:w-2/5"/>
+          <img src="~/assets/jpg/andreas/27c13a41-ff2b-4d51-a61d-eaff84f909b6.jpg" class="object-scale-down rounded-md w-full md:w-2/5"/>
       </div>
     </section>
   </main>
