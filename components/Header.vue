@@ -7,22 +7,6 @@
       >
         <Logo labelledby="remote9" :size="40" />
       </a>
-
-      <div class="space-x-4">
-        <a
-          href="https://remote9.com"
-          class="px-5 py-2 text-sm rounded focus:shadow-outline focus:outline-none text-green-dark active:text-white active:bg-green-dark active:text-white transition duration-150 hover:bg-green-dark hover:text-white hover:shadow"
-        >
-          Trips
-        </a>
-
-        <a
-          href="https://remote9.com"
-          class="px-5 py-2 text-sm rounded focus:shadow-outline focus:outline-none text-green-dark active:text-white active:bg-green-dark active:text-white transition duration-150 hover:bg-green-dark hover:text-white hover:shadow"
-        >
-          About Us
-        </a>
-      </div>
     </div>
   </header>
 </template>

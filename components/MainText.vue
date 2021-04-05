@@ -1,14 +1,19 @@
 <template>
-  <div class="px-6 space-y-6 md:w-2/5">
+  <div class="px-6 space-y-6 lg:w-2/5">
     <h1
       class="text-4xl font-semibold leading-tight tracking-tight text-black space-y-2 sm:space-y-0 md:text-5xl"
     >
       The best trips for
-      <span class="text-green-dark">remote workers</span>
+      <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-dark to-green">remote workers</span>
     </h1>
 
     <p class="text-lg md:text-xl text-gray-darker">
-      Live life to the fullest, work from amazing locations, every day is a new adventure.
+      Are you looking for a <b>community</b> to share a <b>crazy adventure</b> with? A group that you can <b>explore</b>, <b>learn</b> and <b>grow</b> together?
+      Then you have come to the right place! With <b class="text-green-dark">Remote 9</b> you hit the road for <b>16 days</b> with other remote <b>professionals</b>, <b>entrepreneurs</b> and <b>digital nomads</b>.
+    </p>
+    <p class="text-lg md:text-xl text-gray-darker"> 
+      Together we <b>discover new places</b> and <b>live an adventurous life beyond our laptops</b>. 
+      <span class="text-2xl">Sounds good? We bet on it!</span>
     </p>
 
     <a
@@ -17,24 +22,6 @@
     >
       Apply now!
     </a>
-
-    <p class="text-lg md:text-xl text-gray-darker">
-      Are you not ready yet to join? Fill in your email to receive more information and updates on the upcoming trips.
-    </p>
-
-    <!-- <div class="flex flex-row md:text-base text-gray-darker space-x-3">
-        <input class="flex-grow block px-4 py-3 text-base appearance-none border border-gray-dark shadow-none bg-white rounded placeholder-gray focus:outline-none focus:shadow-outline-blue focus:border-green-dark" id="email" x-model="email" type="email" placeholder="Enter your email" autofocus>
-        <button class="px-4 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white">Confirm</button>
-    </div> -->
-
-    <a
-      href="https://eepurl.com/ht0Lvj"
-      class="inline-block px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
-    >
-      Send me details
-    </a>
-
-
 
   </div>
 </template>
