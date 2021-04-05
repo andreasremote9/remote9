@@ -141,7 +141,7 @@
           </div>
         </div>
         <div class="w-full md:relative order-1 md:order-2">
-          <img src="~/assets/jpg/andreas/IMG_7576.JPEG" class="object-scale-down w-full rounded-t-md md:rounded-t-none md:rounded-r-md md:shadow-lg"/>
+          <img src="~/assets/jpg/andreas/IMG_7576.jpg" class="object-scale-down w-full rounded-t-md md:rounded-t-none md:rounded-r-md md:shadow-lg"/>
         </div>
       </div>
       <div class="flex flex-col md:flex-row space-y-3 space-x-3 w-full">
