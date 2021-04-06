@@ -6,6 +6,39 @@
       <Hero />
     </section>
 
+    <section class="max-w-6xl mx-auto space-y-5 p-6">
+      <div class="flex flex-col md:flex-row text-gray-darker bg-gray-100 rounded-md shadow-lg">
+        <div class="w-full md:w-1/4 order-2 md:order-1">
+          <img src="~/assets/png/trip-path.png" class="object-scale-down w-full rounded-b-md md:rounded-l-md md:rounded-b-none"/>
+        </div>
+        <div class="flex flex-col w-full md:w-3/4 p-5 space-y-5 rounded-t-md md:rounded-r-md md:rounded-t-none justify-between order-1 md:order-2">
+          <h2
+            class="bg-clip-text text-transparent bg-gradient-to-r from-green-dark to-green text-2xl font-semibold leading-tight tracking-tight space-y-2 sm:space-y-0 md:text-3xl"
+          >
+          Join our next trip!
+          </h2>
+          <div class="grid grid-cols-3 md:grid-cols-5 gap-y-5">
+            <div class="col-span-1 text-lg md:text-xl font-semibold">When:</div>
+            <div class="col-span-2 md:col-span-4 text-lg ffont-normal">4<sup>th</sup> June - 20<sup>th</sup> June</div>
+            <div class="col-span-1 text-lg md:text-xl font-semibold">Where:</div>
+            <div class="col-span-2 md:col-span-4 text-lg font-normal">from the <b>North</b> to the <b>South</b> of stunning <b>Portugal</b>.<br>(Start: Porto, End: Lagos)</div>
+            <div class="col-span-1 text-lg md:text-xl font-semibold">Who:</div>
+            <div class="col-span-2 md:col-span-4 text-lg ffont-normal">9 inspiring remote professionals, including you!</div>
+            <div class="col-span-1 text-lg md:text-xl font-semibold">How:</div>
+            <div class="col-span-2 md:col-span-4 text-lg ffont-normal">with our incredible private minivan</div>
+          </div>
+          <div class="flex w-full place-items-end">
+            <a
+              href="https://tinyurl.com/6h93r85c"
+              class="inline-block px-8 py-3 font-semibold rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
+            >
+              Join now!
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="flex flex-col max-w-6xl mx-auto space-y-5 p-6 bg-gradient-to-r from-green-dark to-blue lg:rounded-md">
       <h2
         class="bg-clip-text text-transparent bg-gradient-to-r from-white to-green md:to-blue text-2xl font-semibold leading-tight tracking-tight space-y-2 sm:space-y-0 md:text-3xl"
@@ -16,7 +49,7 @@
       <div class="flex flex-col lg:flex-row text-gray-darker">
         <div class="flex flex-shrink flex-col w-full bg-white rounded-b-md md:rounded-b-none md:rounded-t-md lg:rounded-t-none lg:rounded-l-md space-y-5 p-3 order-2 md:order-1 items-start">
           <div class="flex w-full flex-col md:flex-row">
-            <ul class="w-full md:w-1/2 list-none space-y-1 text-base md:text-lg font-medium px-2 mt-reset md:w-auto">
+            <ul class="w-full md:w-1/2 list-inside list-disc space-y-1 text-lg font-medium px-2 mt-reset md:w-auto">
               <li>16 days of all-inclusive travel</li>
               <li>4 different locations</li>
               <li>Stays in private villas</li>
@@ -27,7 +60,7 @@
               <li>Group connection workshops</li>
               <li>Outdoor exploring</li>
             </ul>
-            <ul class="w-full md:w-1/2 list-none space-y-1 text-base md:text-lg font-medium px-2 mt-reset">
+            <ul class="w-full md:w-1/2 list-inside list-disc space-y-1 text-lg font-medium px-2 mt-reset">
               <li>Co-working </li>
               <li>Cooking together </li>
               <li>Movie and BBQ nights</li>
@@ -68,7 +101,7 @@
         This is the balance that <b>Remote 9</b> wants to create.
       </div>
 
-      <div class="flex flex-col md:flex-row text-gray-darker mt-5 md:mt-0">
+      <div class="flex flex-col md:flex-row text-gray-darker mt-5 md:mt-0 space-y-5">
         <div class="w-full md:w-1/2 order-1 md:order-2 px-6 font-medium text-xl">
           <b>Remote 9</b> is a curated co-travel program for digital nomads and remote workers, that combines <b>business</b> with <b>adventure</b>. Nine inspiring remote professionals will be selected to hit the road together for 16 days.
           Every four days we will change our location, so we can explore each surrounding to the fullest with our private minivan. We will cook together, co-work, learn from each other and grow in our personal and professional life.
@@ -79,7 +112,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col md:flex-row text-gray-darker mt-5 md:mt-0">
+      <div class="flex flex-col md:flex-row text-gray-darker mt-5 md:mt-0 space-y-2">
         <div class="w-full md:w-1/2 order-1 px-6 font-medium text-xl">
           What is the best part of the trips? <b>The people!</b> Imagine a group of <b>driven</b> and <b>like-minded people</b> traveling together.
           Everybody brings something to the table and shares it in our skillshare sessions.
@@ -115,6 +148,17 @@
       </div>
     </section>
 
+    <section class="flex flex-col max-w-6xl mx-auto space-y-10 p-6">
+      <h2
+        class="bg-clip-text text-transparent bg-gradient-to-r from-blue to-green text-2xl font-semibold leading-tight tracking-tight space-y-2 sm:space-y-0 md:text-3xl"
+      >
+      Remote 9ers says:
+      </h2>
+
+      <Testimonials />
+      
+    </section>
+
     <section class="flex flex-col max-w-6xl mx-auto space-y-5 p-6 bg-gradient-to-r from-green-dark to-blue lg:rounded-md">
       <h2
         class="bg-clip-text text-transparent bg-gradient-to-r from-white to-green text-2xl font-semibold leading-tight tracking-tight space-y-2 sm:space-y-0 md:text-3xl"
@@ -124,7 +168,7 @@
 
       <div class="flex flex-col md:flex-row text-gray-darker">
         <div class="flex flex-shrink flex-col w-full bg-white rounded-b-md md:rounded-b-none md:rounded-l-md space-y-5 p-3 order-2 md:order-1 items-start">
-          <div class="flex w-full flex-col space-y-5 text-normal lg:text-xl font-medium content-center">
+          <div class="flex w-full flex-col space-y-5 text-lg lg:text-xl font-medium content-center">
             <span class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-dark to-green">Andreas Machado</span>
             <p>
               <b>Andreas Machado</b> is an adventure enthusiast. He lives to <b>experience the outside world</b> and is the best when it comes to finding hidden places.

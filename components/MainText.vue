@@ -18,9 +18,17 @@
 
     <a
       href="https://tinyurl.com/6h93r85c"
-      class="inline-block px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
+      class="inline-block px-3 md:px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
     >
       Apply now!
+    </a>
+
+    <a
+      href="https://instagram.com/remote_9"
+      class="inline-block px-3 md:px-8 py-3 font-medium rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-green-dark text-white"
+    >
+      <font-awesome-icon :icon="['fab', 'instagram']"/>
+      <span>Follow us!</span>
     </a>
 
   </div>
