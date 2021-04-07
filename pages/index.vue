@@ -72,7 +72,7 @@
           </div>
           <span class="px-2 text-green-dark font-semibold text-xl">and so much more...</span>
         </div>
-        <div class="w-full md:relative order-1 md:order-2">
+        <div class="w-full md:w-1/2 order-1 md:order-2">
           <img src="~/assets/jpg/trip/_1244660.jpg" class="object-scale-down w-full rounded-t-md md:rounded-t-none md:rounded-b-md lg:rounded-b-none lg:rounded-r-md md:shadow-lg"/>
         </div>
       </div>
@@ -150,12 +150,14 @@
       <div class="w-full px-6 font-semibold text-gray-darker text-xl text-center">
         Still have questions?
       </div>
+
       <a
         href="https://tinyurl.com/79sm57a"
         class="inline-block px-8 py-3 font-semibold rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-blue text-white m-auto"
       >
         Contact us!
       </a>
+
     </section>
 
     <section class="flex flex-col max-w-6xl mx-auto space-y-10 p-6">
