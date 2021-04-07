@@ -47,7 +47,7 @@
       </h2>
 
       <div class="flex flex-col lg:flex-row text-gray-darker">
-        <div class="flex flex-shrink flex-col w-full bg-white rounded-b-md md:rounded-b-none md:rounded-t-md lg:rounded-t-none lg:rounded-l-md space-y-5 p-3 order-2 md:order-1 items-start">
+        <div class="flex flex-shrink flex-col w-full bg-white rounded-b-md md:rounded-b-none md:rounded-t-md lg:rounded-t-none lg:rounded-l-md space-y-5 p-3 order-2 md:order-1">
           <div class="flex w-full flex-col md:flex-row">
             <ul class="w-full md:w-1/2 list-inside list-disc space-y-1 text-lg font-medium px-2 mt-reset md:w-auto">
               <li>16 days of all-inclusive travel</li>
@@ -72,7 +72,7 @@
           </div>
           <span class="px-2 text-green-dark font-semibold text-xl">and so much more...</span>
         </div>
-        <div class="w-full md:w-1/2 order-1 md:order-2">
+        <div class="w-full order-1 md:order-2">
           <img src="~/assets/jpg/trip/_1244660.jpg" class="object-scale-down w-full rounded-t-md md:rounded-t-none md:rounded-b-md lg:rounded-b-none lg:rounded-r-md md:shadow-lg"/>
         </div>
       </div>
