@@ -8,7 +8,7 @@
         <div class="plyr__video-embed">
             <iframe
             class="rounded-md overflow-hidden"
-            src="https://player.vimeo.com/video/533061633?muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;portrait=0&amp;title=0&amp;speed=0&amp;transparent=1&amp;gesture=media&amp;#t=5s"
+            src="https://player.vimeo.com/video/533061633?muted=1&amp;autoplay=1&amp;loop=1&amp;byline=0&amp;portrait=0&amp;title=0&amp;speed=0&amp;transparent=1&amp;gesture=media"
             allowtransparency
             allow="autoplay"
             ></iframe>

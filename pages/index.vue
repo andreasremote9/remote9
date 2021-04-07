@@ -146,6 +146,16 @@
           <img src="~/assets/jpg/trip/IMG-20200530-WA0131.jpg" class="object-scale-down w-full rounded-md"/>
         </div>
       </div>
+
+      <div class="w-full px-6 font-semibold text-gray-darker text-xl text-center">
+        Still have questions?
+      </div>
+      <a
+        href="https://tinyurl.com/79sm57a"
+        class="inline-block px-8 py-3 font-semibold rounded shadow-lg focus:outline-none focus:shadow-outline hover:bg-opacity-75 transition duration-150 bg-blue text-white m-auto"
+      >
+        Contact us!
+      </a>
     </section>
 
     <section class="flex flex-col max-w-6xl mx-auto space-y-10 p-6">
